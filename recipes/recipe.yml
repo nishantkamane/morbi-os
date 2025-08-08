@@ -107,15 +107,15 @@ modules:
         - cosmic-screenshot
         - cosmic-workspaces
         - xdg-desktop-portal-cosmic
-  - type: files
-    files:
-      - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-
-  - type: files
-    files:
-      - source: basics
-        destination: /
+#  - type: files
+#    files:
+#      - source: system
+#        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+#
+#  - type: files
+#    files:
+#      - source: basics
+#        destination: /
 
   - type: systemd
     system:
